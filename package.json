@@ -1,0 +1,38 @@
+{
+    "name": "taoism-today",
+    "version": "0.7",
+    "description": "Taoism Today",
+    "main": "taoism.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "list": "^0.0.4"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-compress": "^0.12.0",
+        "grunt-contrib-concat": "~0.5.0",
+        "grunt-contrib-copy": "^0.7.0",
+        "grunt-contrib-imagemin": "^0.9.1",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-qunit": "~0.5.2",
+        "grunt-contrib-uglify": "~0.5.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-ftp-deploy": "^0.1.10",
+        "grunt-newer": "^0.8.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@bitbucket.org/oddruud/taoism-today.git"
+    },
+    "keywords": [
+       "taoism"
+    ],
+    "author": "Ruud op den Kelder",
+    "license": "ISC"
+}
